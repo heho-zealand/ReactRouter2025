@@ -1,6 +1,6 @@
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { selectMovie, listOfMovies } from './MovieSlice';
+import { selectMovie, listOfMovies } from '../store/MovieSlice';
 import { Link } from 'react-router-dom';
 import './MovieList.css';
 

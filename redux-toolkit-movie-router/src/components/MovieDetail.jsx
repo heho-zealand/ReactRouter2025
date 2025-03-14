@@ -1,6 +1,6 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
-import { clickedMovie } from './MovieSlice';
+import { clickedMovie } from '../store/MovieSlice';
 import { Link } from 'react-router-dom';
 
 export function MovieDetail(){
